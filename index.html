@@ -2,9 +2,35 @@
 <html>
   <head>
     <title>Lema Virtual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="js/placa.js" defer></script>
   </head>
   <body>
-    Lema virutal em construção
+    <main>
+      <div class="container">
+        <div id="placa"> <!-- Início da placa -->
+          <div id="letter-group">
+            <div class="character" draggable="true" id="letter1"></div>
+            <div class="character" draggable="true" id="letter2"></div>
+            <div class="character" draggable="true" id="letter3"></div>
+          </div>
+          <div id="number-group">
+            <div class="character" draggable="true" id="number1">1</div>
+            <div class="character" draggable="true" id="number2">1</div>
+            <div class="character" draggable="true" id="number3">1</div>
+            <div class="character" draggable="true" id="number4">1</div>
+          </div>
+        </div> <!-- Final da placa -->
+
+        <div class="alphabet">
+          <div class="character" draggable="true" id="A">A</div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
